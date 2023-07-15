@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(202, 227, 235);
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .title {
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .temperature-converter {
+    background: #f0faff;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+  .result {
+    text-align: left;
+    margin: 20px 0;
+  }
+  .result-heading {
+    color: #a2a2a2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .celsius-value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    font-weight: bold;
+  }
+  label{
+    color: #a2a2a2;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 1px;
+    margin-bottom: 2px;
+    width: 100%;
+        
+    }
+select{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 1px;
+    margin-bottom: 2px;
+    width: 100%;
+  
+}
+  input:focus {
+    border: 1px solid #bdd6f7;
+  }
+  .degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .degree-field {
+    color: #a2a2a2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    
+  }
+
+  .temper-field{
+    color: #a2a2a2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+   
+  }
+
+  option {
+    background-color: #71a1fa;
+    color: #f6f6f6;
+  }
+  #convert-btn {
+    background: linear-gradient(to bottom, #3386f3, #0f45b9);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+  #convert-btn:hover {
+    background: linear-gradient(to bottom, #3578f5, #376cce);
+  }
